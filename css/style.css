@@ -1,3 +1,19 @@
 @import url(//db.onlinewebfonts.com/c/ca32b369590c4b105ed8cbdf1f8da722?family=GoodDogNewW00-Regular);
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto&display=swap');
+
+:root{
+    --main-font: 18px;
+    --big-font: 72px;
+    --mid-font: 64px;
+    --sec-font:24px;
+    --color-white:#FFFFFF;
+    --color-black:#000000;
+    --color-gray:#8b8b8b;
+    --color-green:#A8FF35;
+    --color-lwhite:#f5f5f5;
+    --color-lblack:#030303;
+    --color-lgray:#ADADAD;
+    --color-offwhite:#FAFAFA;
+    --color-lgreen:#87D322;
+}
