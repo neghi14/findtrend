@@ -211,12 +211,91 @@
     transform: rotate(4deg);
     z-index: 1;
 }
-
-@media (max-width:48rem){
+.new-tab{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-green);
+}
+.new-tab h2{
+    font-family: 'effrabold';
+    font-size: var(--big-font);
+    margin-top:140px ;
+    margin-bottom: 60px;
+}
+.tab-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social-bg{
+    padding: 60px 90px;
+    background-color: var(--color-lwhite);
+    border-radius: 14px;
+}
+.social-one{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px 25px;
+    color: var(--color-white);
+    background-color: #181818;
+}
+.social-one p{
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-white);
+    font-weight: 400;
+    margin:0;   
+}
+.social-icon-one{
+    position: absolute;
+    width: 25% ;
+    height: 100%;
+    left: 170px;
+    padding-top:25px ;
+    padding-left: 40px;
+    background: linear-gradient(270deg, #181818 53.65%, rgba(24, 24, 24, 0.8) 100%);   
+}
+.pointer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    gap: 10px;
+    align-items: center;
+}
+.pointer img{
+    width: 30px;
+}
+.pointer p{
+    font-family: 'GoodDogNewW00-Regular';
+    font-size: 14px;
+    font-style: normal;
+    line-height: 10px;
+    color: var(--color-black);
+    text-align: center;
+    transform: rotate(6deg);
+    margin-bottom: 10px;
+}
+.tab-para{
+    font-family: 'effra_mediumregular';
+    font-size: var(--main-font);
+    text-align: center;
+    color: var(--color-black);
+    line-height: 27px;
+    margin-bottom: 140px;
+    margin-top: 60px;
+}
+@media (max-width:55rem){
     .nav-bar{
         display: none;
     }
     .nav{
+        width: 100%;
         position: absolute;
         display: flex;
         align-items: center;
@@ -225,9 +304,6 @@
         padding: 24px 18px;
     }
     .clicker{
-        display: flex;
-        flex-direction: column;
-        margin-left: 180px;
     }
     .mobile-nav{
         position: fixed;
@@ -276,7 +352,7 @@
     .hero p{
         font-size: 14px;
     }
-    .pointer{
+    .pointer-main{
         display: none;
     }
     .cta{
