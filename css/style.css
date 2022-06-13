@@ -877,11 +877,10 @@
     }
 
     .all-platforms h2 {
-        margin-top: 80px;
         font-size: 36px;
-        margin-bottom: 32px;
         line-height: 42.77px;
         text-align: center;
+        margin: 80px 20px 32px 20px;
     }
 
     .social-media-icons {
